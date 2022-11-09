@@ -1,0 +1,1 @@
+This project will be a landing page, using HTML, CSS, focusing on Flexboxes, and alignment as well as other core concepts
