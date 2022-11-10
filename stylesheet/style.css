@@ -6,40 +6,44 @@ body {
     background-color: rgba(64, 104, 69, 0.855);
     display: flex;
     flex-direction: column;
-    padding:0px 150px 20px 150px;
+    
     color: aliceblue;
 }
 .top { 
     display: flex;
-    justify-content: space-between;
+    flex: auto;
+    justify-content: space-around;
     align-items:center;
     margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    
 
 }
 .description {
     display: flex;
+    justify-content: center;
     flex: 1;
-    padding: 0 0 50px 0;
+    padding: 25px 150px 50px 150px;
     gap: 35px;
 }
 ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    
 }
 .left {
     display: flex;
     flex-direction: column;
-   
+   flex: auto;
 }
 .right {
-    display:flex;
     flex: 1 0 auto;
 }
-h1 {
-    color: aliceblue;
+.heromain {
+    font-size:  35px;
+    font-weight: bolder;
     width: 200px;
     padding-bottom: -10px;
 }
@@ -73,6 +77,7 @@ h1 {
     background-color: rgba(64, 104, 69, 0.855);
     border-radius: 5px;
     border: none;
+    font-weight: bold;
     color: aliceblue;
 }
 .quotebutton {
@@ -82,9 +87,9 @@ h1 {
     width: 100px;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    border-color: rgba(35, 58, 38, 0.855);
+    border: 2px solid rgba(44, 72, 47, 0.855);
     color: rgba(44, 72, 47, 0.855);
-    border: 1em;
+    font-weight: bold;
 }
 button:hover {
     background-color:rgb(34, 69, 22);
@@ -124,17 +129,17 @@ button:hover {
 }
 .name {
     width: 320px;
-align-self: flex-end;
+
 font-size: 15px;
 font-weight: bold;
+flex: auto;
 
 }
 .quote {
     font-size:20px;
     font-style: italic;
     font-weight: lighter;
-    display: flex;
-    justify-content: center;
+    flex: auto;
     width: 400px;
 }
 .action {
@@ -166,4 +171,26 @@ a {
 
 .text {
     color: aliceblue;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(64, 104, 69, 0.855);
+    padding: 25px 0px;
+}
+.foottext {
+    color: aliceblue;
+}
+.llinks {
+    color:  rgba(64, 104, 69, 0.855);
+    gap: 10px;
+    
+}
+.lefthead {
+    display: flex;
+    gap: 0px;
+    font-weight: bold;
+}
+.logo {
+    flex-shrink: 0;
 }
