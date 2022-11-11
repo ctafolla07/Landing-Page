@@ -7,40 +7,47 @@ body {
     background-color: rgba(64, 104, 69, 0.855);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     color: aliceblue;
+    
+    margin: auto;
 }
 .top { 
+    width: 100%;
     display: flex;
-    flex: auto;
     justify-content: space-around;
-    align-items:center;
-    margin-bottom: 20px;
+    align-items:flex-end;
+    margin: auto;
     background-color: aliceblue;
     padding: 20px;
-    
+    max-width: 1000px;
 
 }
 .description {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    min-height: 250px;
     padding: 25px 150px 50px 150px;
     gap: 35px;
+    margin: auto;
+    max-width: 1000px;
 }
 ul {
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: 30px;
     
 }
 .left {
     display: flex;
     flex-direction: column;
-   flex: auto;
+   flex: 1;
 }
 .right {
-    flex: 1 0 auto;
+    align-self: center;
+    justify-content: center;
+    flex: 1.24;
+
 }
 .heromain {
     font-size:  35px;
@@ -152,8 +159,8 @@ flex: auto;
 .actioncontainer {
     display: flex;
     background-color:  rgba(64, 104, 69, 0.855);
-    padding: 20px 80px;
-    gap: 55px;
+    padding: 10px 80px;
+    gap: 30px;
     border-radius: 10px;
     align-items: center;
 }
@@ -163,12 +170,7 @@ flex: auto;
     justify-content: center;
     
 }
-a {
-    margin-bottom: -10px;
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 .text {
     color: aliceblue;
@@ -185,7 +187,7 @@ a {
 .llinks {
     color:  rgba(64, 104, 69, 0.855);
     gap: 10px;
-    
+    list-style: none;
 }
 .lefthead {
     display: flex;
@@ -194,4 +196,14 @@ a {
 }
 .logo {
     flex-shrink: 0;
+}
+.mainlink {
+    color:  rgba(64, 104, 69, 0.855);
+    display: list-item;
+}
+a {
+    color: rgba(64, 104, 69, 0.855);
+}
+.banner {
+   
 }
