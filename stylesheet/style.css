@@ -19,7 +19,6 @@ body {
     margin: auto;
     background-color: aliceblue;
     padding: 20px;
-    max-width: 1000px;
 
 }
 .description {
@@ -30,7 +29,6 @@ body {
     padding: 25px 150px 50px 150px;
     gap: 35px;
     margin: auto;
-    max-width: 1000px;
 }
 ul {
     display: flex;
