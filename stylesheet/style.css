@@ -5,8 +5,7 @@ body {
 }
 .header {
     background-color: rgba(64, 104, 69, 0.855);
-    display: flex;
-    flex-direction: column;
+    
     color: aliceblue;
     
     margin: auto;
@@ -23,9 +22,9 @@ body {
 }
 .description {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    min-height: 250px;
+    height: 300px;
     padding: 25px 150px 50px 150px;
     gap: 35px;
     margin: auto;
@@ -37,16 +36,10 @@ ul {
     
 }
 .left {
-    display: flex;
-    flex-direction: column;
-   flex: 1; 
-   align-items: flex-start;
+   width: 35%;
 }
 .right {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    flex: 1.24;
+    width: 300px;
 
 }
 .heromain {
@@ -203,7 +196,4 @@ flex: auto;
 }
 a {
     color: rgba(64, 104, 69, 0.855);
-}
-.banner {
-   
 }
